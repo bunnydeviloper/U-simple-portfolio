@@ -1,16 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100%;
   background: yellow;
 }
 
-#name-title {
+.container {
+  width: 100%;
+}
+
+.heading {
   margin: auto;
   padding: 10px;
   text-align: right;
-  width: 100%;
+}
+
+.heading .logo {
+  width: 50px;
+}
+
+.heading .jumbotron {
+  width: 80%;
+
 }
 
 #feature-work {
@@ -24,5 +35,9 @@ body {
 #feature-work div img {
   width: 200px;
   height: 150px;
+}
+
+p {
+  text-align: right;
 }
 

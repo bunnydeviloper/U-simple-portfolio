@@ -1,33 +1,56 @@
 <html>
   <head>
+    <meta charset="utf-8" />
     <title>Build a Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <img src="images/udacity-logo.jpg" width="50px" />
-    <div id="name-title">
-      <h1>Sophia Mai</h1>
-      <h2>Front-End Web Developer</h2>
-      <img id="img-coding" src="images/coding.jpg" />
-    </div>
+    <div class="container">
 
-    <h2>Feature Work</h2>
-    <div id="feature-work">
-      <div>
-        <img src="images/happy-bday.jpg" />
-	<a href="https://bunnydeviloper.github.io/happyBdayAjax/public/"><h3>Happy Birthday</h3></a>
-      </div>
-      
-      <div>
-        <img src="images/todo-list.jpg" />
-	<a href="https://angular-to-do-list-aa285.firebaseapp.com/"><h3>To Do List</h3></a>
-      </div>
+      <section class="heading">
+        <img class="logo" src="images/udacity-logo.jpg" alt="udacity logo" />
+        <div class="nameAndTitle">
+          <h1 class="name">Sophia Mai</h1>
+          <h2 class="title">Front-End Web Developer</h2>
+        </div>
+      </section>
+
+      <img id="jumbotron" src="images/coding.jpg" alt="coding image" />
+
+      <h2>Feature Work</h2>
+
+      <div id="feature-work">
+        <div>
+          <img src="images/happy-bday.jpg" alt="project happy birthday" />
+        	<a href="https://bunnydeviloper.github.io/happyBdayAjax/public/">
+            <h3>Happy Birthday</h3>
+          </a>
+        </div>
+        
+        <div>
+          <img src="images/todo-list.jpg" alt="project todo list" />
+        	<a href="https://angular-to-do-list-aa285.firebaseapp.com/">
+            <h3>To Do List</h3>
+          </a>
+        </div>
   
+        <div>
+          <img src="images/summer-fruit-picking.jpg" alt="project fruit picking" />
+	        <a href="https://bunnydeviloper.github.io/fruit-picking/">
+            <h3>Fruit Picking</h3>
+          </a>
+        </div>
       <div>
-        <img src="images/summer-fruit-picking.jpg" />
-	<a href="https://bunnydeviloper.github.io/fruit-picking/"><h3>Fruit Picking</h3></a>
-      </div>
-    <div>
+
+      <footer class="footer">
+      <p><b>phuongmai001@gmail.com</b></p>
+
+      </footer>
+
+      <p>This portfolio is built according to the project specifications provided by Udacity. C 2018</p>
+
+    </div>
   </body>
 </html>
