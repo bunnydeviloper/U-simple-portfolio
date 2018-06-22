@@ -2,55 +2,86 @@
   <head>
     <meta charset="utf-8" />
     <title>Build a Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px" href="css/smalldevice.css">
   </head>
 
   <body>
-    <div class="container">
-
-      <section class="heading">
+    <!-- Header -->
+    <header class="layoutA header container">
+      <div class="logo">
         <img class="logo" src="images/udacity-logo.jpg" alt="udacity logo" />
-        <div class="nameAndTitle">
-          <h1 class="name">Sophia Mai</h1>
-          <h2 class="title">Front-End Web Developer</h2>
-        </div>
-      </section>
+      </div>
+      <div class="headerText">
+        <h1>Sophia Mai</h1>
+        <h2>Front-End Web Developer</h2>
+        <h2>Making The World A Beautiful Place</h2>
+      </div>
+    </header>
 
-      <img id="jumbotron" src="images/coding.jpg" alt="coding image" />
+    <!-- Cover Image -->
+    <!-- Photo credits: cover - Photo from Google search -->
+    <img id="coverImage" class="container" src="images/coding.jpg" alt="coding image" />
+    <br />
 
-      <h2>Feature Work</h2>
+    <!-- About Section -->
+    <section id="aboutMe" class="container">
+      <p>
+      Hi, my name is Sophia, welcome to my Portfolio Project for Udacity Front-End Web Developer Udacity Nanodegree.
+      </p>
+    </section>
+    <br />
 
-      <div id="feature-work">
-        <div>
-          <img src="images/happy-bday.jpg" alt="project happy birthday" />
-        	<a href="https://bunnydeviloper.github.io/happyBdayAjax/public/">
-            <h3>Happy Birthday</h3>
-          </a>
-        </div>
-        
-        <div>
-          <img src="images/todo-list.jpg" alt="project todo list" />
-        	<a href="https://angular-to-do-list-aa285.firebaseapp.com/">
-            <h3>To Do List</h3>
-          </a>
-        </div>
-  
-        <div>
-          <img src="images/summer-fruit-picking.jpg" alt="project fruit picking" />
-	        <a href="https://bunnydeviloper.github.io/fruit-picking/">
-            <h3>Fruit Picking</h3>
-          </a>
-        </div>
-      <div>
-
-      <footer class="footer">
-      <p><b>phuongmai001@gmail.com</b></p>
-
-      </footer>
-
-      <p>This portfolio is built according to the project specifications provided by Udacity. C 2018</p>
-
+    <!-- Feature Work -->
+    <div class="header">
+      <h2>Feature Works</h2>
     </div>
+
+    <div class="container layoutB">
+      <div class="projectImage">
+        <a href="https://bunnydeviloper.github.io/happyBdayAjax/public/" target="_blank">
+          <img src="images/happy-bday.jpg" alt="project happy birthday" />
+          Happy Birthday
+        </a>
+      </div>
+      <div class="projectImage">
+        <a href="https://angular-to-do-list-aa285.firebaseapp.com/" target="_blank">
+          <img src="images/todo-list.jpg" alt="project todo list" />
+          Todo List
+        </a>
+      </div>
+      <div class="projectImage">
+        <a href="https://bunnydeviloper.github.io/fruit-picking/" target="_blank">
+          <img src="images/summer-fruit-picking.jpg" alt="project fruit picking" />
+          Fruit Picking
+        </a>
+      </div>
+      <div>
+      </div>
+      <br />
+
+      <!--     Social Media Icons/Links -->
+      <div class="layoutC container social">
+        <div>
+          <a href="http://github.com/bunnydeviloper" target="_blank">
+            <img id="github" src="images/github.png" alt="Github">
+          </a>
+        </div>
+        <div>
+          <a href="" target="_blank">
+            <img id="email" src="images/email.png" alt="Email">
+          </a>
+        </div>
+        <div>
+          <a href="http://www.linkedin.com/in/sophiapmai/" target="_blank">
+            <img id="linkedIn" src="images/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
+
+      <p><b>phuongmai001@gmail.com</b></p>
+      <footer><span id="copyright">©</span>Sophia Mai 2018</footer>
+      </footer>
   </body>
 </html>
