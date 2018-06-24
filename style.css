@@ -1,8 +1,6 @@
-/* most commonly used setting */
 body {
-  /* font-family: pick later */
   margin: auto;
-  max-width: 1080px;
+  max-width: 900px;
 }
 
 img,
@@ -20,68 +18,73 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 header {
   width: 100%;
-
-/*
+  overflow: hidden;
+  position: relative;
   max-height: 100px;
-  flex-wrap: nowrap;
-  text-align: center;
-  flex-flow: column;
-  */
 }
 
 header .headerText {
   text-align: right;
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  float: right;
+  padding-top: 20px;
 }
 
-header .logo {
-  height: 60px;
+header .headerText h3 {
+  padding-top: 10px;
 }
 
-/* Cover Image */
-#coverImage {
-  width: 100%;
-  max-width: 1080px;
-  max-height: 350px;
-  /*
-  margin: auto;
-  justify-content: center;
-  */
+header div.logo {
+  float: left;
 }
 
-/* About */
+header div.logo img {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right; 0;
+  left: 0;
+}
+
+/* Section About Me */
 #aboutMe {
-  max-width: 50%;
-  justify-content: center;
-  /*
+  max-width: 100%;
   margin: auto;
-  */
-}
-
-/* Featured Works */
-.featureworks {
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
-  width: 100%;
-  text-align: center;
 }
 
-.projectImage {
-  max-width: 33%;
-  margin: auto;
+#aboutMe #coverImage {
+  width: 100%;
+  max-height: 350px;
+  padding-top: 20px;
+}
+
+/* Section Featured Works */
+#feature {
+  padding-top: 20px;
+}
+
+#feature .featureworks {
+  display: flex;
+}
+
+#feature .featureworks div {
+  flex: 1;
+  width: 33%;
+  padding: 0 2px;
+  align-self: center;
 }
 
 /* Contact Me Icons/Links */
-.contactMe {
-  display: inline-block;
+footer {
+  padding-top: 30px;
+  display: flex;
   justify-content: center;
 }
 
-.contactMe .icon {
-  width: 50px;
-  display: inline-block;
+footer .icon {
+  width: 100px;
+  height: 30px;
+  flex: 1;
+  padding: 0 5px;
 }
