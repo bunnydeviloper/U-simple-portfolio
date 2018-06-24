@@ -54,14 +54,14 @@ header .logo {
 /* About */
 #aboutMe {
   max-width: 50%;
-  /*
   justify-content: center;
+  /*
   margin: auto;
   */
 }
 
 /* Featured Works */
-.container {
+.featureworks {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -70,72 +70,18 @@ header .logo {
   text-align: center;
 }
 
-.container a {
-  text-decoration: none;
-  font-size: 26px;
-}
-
 .projectImage {
-  width: 450px;
   max-width: 33%;
-  max-height: 25%;
   margin: auto;
 }
 
-/* Social Media Icons/Links */
-.social {
+/* Contact Me Icons/Links */
+.contactMe {
+  display: inline-block;
   justify-content: center;
-  align-content: space-around;
 }
 
-.social img{
-  width: 25px;
-  height: 25px;
-}
-
-footer {
-  text-align: center;
-}
-
-
-.container {
-  width: 100%;
-}
-
-.heading {
-  margin: auto;
-  padding: 10px;
-  text-align: right;
-}
-
-#feature-work {
-  text-align: center;
-}
-
-#feature-work div {
+.contactMe .icon {
+  width: 50px;
   display: inline-block;
 }
-
-#feature-work div img {
-  width: 200px;
-  height: 150px;
-}
-
-p { text-align: right; }
-
-
-/*Layout Class for Design - comment out*/
-/*.layoutA {
-  background: lightblue;
-  border: solid 1px black;
-}
-
-.layoutB {
-  background: pink;
-  border: solid 1px black;
-}
-
-.layoutC {
-  background: lavender;
-  border: solid 1px black;
-}*/
