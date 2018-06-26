@@ -1,0 +1,20 @@
+@media screen and (max-width: 520px) {
+  header {
+    max-height: 70px;
+  }
+  #feature .featureworks, footer {
+    display: block;
+    text-align: center;
+  }
+  #feature .featureworks div {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  footer .icon {
+    margin: auto;
+    margin-top: 10px;
+    height: 15px;
+    width: 50px;
+  }
+}

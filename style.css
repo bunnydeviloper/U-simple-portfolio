@@ -1,6 +1,7 @@
 body {
   margin: auto;
   max-width: 900px;
+  padding: 10px;
 }
 
 img,
@@ -21,16 +22,17 @@ header {
   overflow: hidden;
   position: relative;
   max-height: 100px;
+  padding-top: 10px;
 }
 
 header .headerText {
   text-align: right;
   float: right;
-  padding-top: 20px;
 }
 
 header .headerText h3 {
   padding-top: 10px;
+  font-size: 90%;
 }
 
 header div.logo {
@@ -71,7 +73,6 @@ header div.logo img {
 #feature .featureworks div {
   flex: 1;
   width: 33%;
-  padding: 0 2px;
   align-self: center;
 }
 
